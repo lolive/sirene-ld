@@ -82,7 +82,7 @@ sirene:L6_NORMALISEE a rdf:Property ;
 	rdfs:domain sirext:Etablissement ;
 	rdfs:isDefinedBy sirene: .
 
-sirene:sirene:L7_NORMALISEE a rdf:Property ;
+sirene:L7_NORMALISEE a rdf:Property ;
 	rdfs:comment "Septième ligne de l’adressage de l’établissement" ;
 	rdfs:label "Adresse normalisée (l7)" ;
 	rdfs:range xs:string ;
