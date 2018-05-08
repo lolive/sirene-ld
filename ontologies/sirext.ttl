@@ -8,6 +8,7 @@
 @prefix xs: <http://www.w3.org/2001/XMLSchema#> .
 @prefix cc: <http://creativecommons.org/ns#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 sirext: a owl:Ontology ;
     dcterms:title "Extension de SIRENE" ;
