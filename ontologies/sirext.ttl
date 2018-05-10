@@ -241,6 +241,7 @@ sirext:activnat rdfs:subPropertyOf sirext:codeNomenclature ;
 sirext:lieuact rdfs:subPropertyOf sirext:codeNomenclature ;
 	rdfs:comment "C'est le lieu de l'activité de l'établissement déclaré lors de sa création (bureau, usine...)." ;
 	rdfs:label "Lieu de l'activité (LIEUACT)" ;
+	rdfs:domain sirext:Etablissement; 
 	rdfs:range sirext:LIEUACT ;
 	rdfs:isDefinedBy sirext: .
 
