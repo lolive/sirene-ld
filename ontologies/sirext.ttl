@@ -60,8 +60,7 @@ sirext:Siege rdfs:subClassOf sirext:Etablissement ;
 
 sirext:CodeNomenclature a rdfs:Class ;
     rdfs:comment "Code issue d'une nomenclature officielle" ;
-    rdfs:label "Code" ;
-    rdfs:domain sirext:Etablissement; 
+    rdfs:label "Code" ; 
     rdfs:isDefinedBy sirext: .
 
 sirext:TEF rdfs:SubClassOf sirext:CodeNomenclature ;
@@ -200,6 +199,7 @@ sirext:codeNomenclature a rdf:Property ;
 	rdfs:comment "Code issu d'une nomenclature officielle" ;
 	rdfs:label "Code nomenclature" ;
 	rdfs:range sirext:CodeNomenclature ;
+    	rdfs:domain sirext:Etablissement;
 	rdfs:isDefinedBy sirext: .
 
 sirext:commune rdfs:subPropertyOf sirext:codeNomenclature ;
