@@ -61,6 +61,7 @@ sirext:Siege rdfs:subClassOf sirext:Etablissement ;
 sirext:CodeNomenclature a rdfs:Class ;
     rdfs:comment "Code issue d'une nomenclature officielle" ;
     rdfs:label "Code" ;
+    rdfs:domain sirext:Etablissement; 
     rdfs:isDefinedBy sirext: .
 
 sirext:TEF rdfs:SubClassOf sirext:CodeNomenclature ;
