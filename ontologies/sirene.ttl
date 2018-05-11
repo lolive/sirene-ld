@@ -359,7 +359,7 @@ sirene:NOMEN_LONG a rdf:Property ;
 	rdfs:comment "Nom ou raison sociale de l'entreprise" ;
 	rdfs:label "Nom ou raison sociale" ;
 	rdfs:range xs:string ;
-	rdfs:domain sirext:Etablissement ;
+	rdfs:domain sirext:Entreprise ;
 	rdfs:isDefinedBy sirene: .
 
 sirene:SIGLE a rdf:Property ;
@@ -373,35 +373,35 @@ sirene:NOM a rdf:Property ;
 	rdfs:comment "Nom de naissance" ;
 	rdfs:label "Nom de naissance" ;
 	rdfs:range xs:string ;
-	rdfs:domain sirext:Etablissement ;
+	rdfs:domain sirext:Entreprise ;
 	rdfs:isDefinedBy sirene: .
 
 sirene:PRENOM a rdf:Property ;
 	rdfs:comment "Prénom" ;
 	rdfs:label "Prénom" ;
 	rdfs:range xs:string ;
-	rdfs:domain sirext:Etablissement ;
+	rdfs:domain sirext:Entreprise ;
 	rdfs:isDefinedBy sirene: .
 
 sirene:CIVILITE a rdf:Property ;
 	rdfs:comment "Civilité des entrepreneurs individuels" ;
 	rdfs:label "Civilité des entrepreneurs individuels" ;
 	rdfs:range xs:string ;
-	rdfs:domain sirext:Etablissement ;
+	rdfs:domain sirext:Entreprise ;
 	rdfs:isDefinedBy sirene: .
 
 sirene:RNA a rdf:Property ;
 	rdfs:comment "Numéro d’identification au répertoire national des associations" ;
 	rdfs:label "Numéro d’identification au répertoire national des associations" ;
 	rdfs:range xs:string ;
-	rdfs:domain sirext:Etablissement ;
+	rdfs:domain sirext:Entreprise ;
 	rdfs:isDefinedBy sirene: .
 
 sirene:NICSIEGE a rdf:Property ;
 	rdfs:comment "Numéro interne de classement de l'établissement siège" ;
 	rdfs:label "Numéro interne de classement de l'établissement siège" ;
 	rdfs:range xs:string ;
-	rdfs:domain sirext:Etablissement ;
+	rdfs:domain sirext:Entreprise ;
 	rdfs:isDefinedBy sirene: .
 
 sirene:RPEN a rdf:Property ;
@@ -534,14 +534,14 @@ sirene:ESAANN a rdf:Property ;
 	rdfs:comment "Année de validité des rubriques de niveau entreprise en provenance de l'ESA (Enquêtes Sectorielles Annuelles)" ;
 	rdfs:label "Année de validité des rubriques de niveau entreprise en provenance de l'ESA (Enquêtes Sectorielles Annuelles)" ;
 	rdfs:range xs:string ;
-	rdfs:domain sirext:Etablissement ;
+	rdfs:domain sirext:Entreprise ;
 	rdfs:isDefinedBy sirene: .
 
 sirene:TCA a rdf:Property ;
 	rdfs:comment "Tranche de chiffre d'affaires pour les entreprises enquêtées par l'ESA (Enquêtes Sectorielles Annuelles)" ;
 	rdfs:label "Tranche de chiffre d'affaires pour les entreprises enquêtées par l'ESA (Enquêtes Sectorielles Annuelles)" ;
 	rdfs:range xs:string ;
-	rdfs:domain sirext:Etablissement ;
+	rdfs:domain sirext:Entreprise ;
 	rdfs:isDefinedBy sirene: .
 
 sirene:ESAAPEN a rdf:Property ;
